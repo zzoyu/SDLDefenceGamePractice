@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SDLDefenseGame", "SDLDefenseGame\SDLDefenseGame.vcxproj", "{96031B26-E581-4F3F-B54C-EC6B18CAFA98}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameTool", "GameTool\GameTool.vcxproj", "{98B225D9-B1DB-4B7D-8DA7-4460A1D7CF64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96031B26-E581-4F3F-B54C-EC6B18CAFA98}.Debug|Win32.ActiveCfg = Debug|Win32
+		{96031B26-E581-4F3F-B54C-EC6B18CAFA98}.Debug|Win32.Build.0 = Debug|Win32
+		{96031B26-E581-4F3F-B54C-EC6B18CAFA98}.Release|Win32.ActiveCfg = Release|Win32
+		{96031B26-E581-4F3F-B54C-EC6B18CAFA98}.Release|Win32.Build.0 = Release|Win32
+		{98B225D9-B1DB-4B7D-8DA7-4460A1D7CF64}.Debug|Win32.ActiveCfg = Debug|Win32
+		{98B225D9-B1DB-4B7D-8DA7-4460A1D7CF64}.Debug|Win32.Build.0 = Debug|Win32
+		{98B225D9-B1DB-4B7D-8DA7-4460A1D7CF64}.Release|Win32.ActiveCfg = Release|Win32
+		{98B225D9-B1DB-4B7D-8DA7-4460A1D7CF64}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,37 @@
+﻿빌드 시작: 2014-11-04 오후 3:41:36
+     1>3 노드의 "C:\Users\zzoyu\Documents\Visual Studio 2010\Projects\SDLDefenceGame\GameTool\GameTool.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Release\GameTool.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\GameTool.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CharInfoDlg.cpp GameTool.cpp GameToolDlg.cpp TileInfoDlg.cpp
+         CharInfoDlg.cpp
+         GameTool.cpp
+         GameToolDlg.cpp
+     1>GameToolDlg.cpp(474): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>GameToolDlg.cpp(544): warning C4805: '==' : 연산에 'int' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+     1>GameToolDlg.cpp(553): warning C4805: '==' : 연산에 'int' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+     1>GameToolDlg.cpp(562): warning C4805: '==' : 연산에 'int' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
+         TileInfoDlg.cpp
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0412" /IRelease\ /nologo /fo"Release\GameTool.res" GameTool.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zzoyu\Documents\Visual Studio 2010\Projects\SDLDefenceGame\Release\GameTool.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\GameTool.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\zzoyu\Documents\Visual Studio 2010\Projects\SDLDefenceGame\Release\GameTool.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zzoyu\Documents\Visual Studio 2010\Projects\SDLDefenceGame\Release\GameTool.lib" /MACHINE:X86 Release\GameTool.res
+         Release\CharInfoDlg.obj
+         Release\GameTool.obj
+         Release\GameToolDlg.obj
+         Release\stdafx.obj
+         Release\TileInfoDlg.obj
+         코드를 생성하고 있습니다.
+         코드를 생성했습니다.
+         GameTool.vcxproj -> C:\Users\zzoyu\Documents\Visual Studio 2010\Projects\SDLDefenceGame\Release\GameTool.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\zzoyu\Documents\Visual Studio 2010\Projects\SDLDefenceGame\Release\GameTool.exe;#1" /manifest Release\GameTool.exe.intermediate.manifest "C:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         "Release\GameTool.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Release\GameTool.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\zzoyu\Documents\Visual Studio 2010\Projects\SDLDefenceGame\GameTool\GameTool.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:01:00.27

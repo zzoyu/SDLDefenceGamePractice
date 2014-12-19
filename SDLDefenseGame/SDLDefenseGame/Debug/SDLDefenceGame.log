@@ -1,0 +1,29 @@
+﻿빌드 시작: 2014-12-19 오후 3:47:53
+     1>2 노드의 "C:\Users\zzoyu\Documents\Visual Studio 2010\Projects\SDLDefenceGame\SDLDefenceGame\SDLDefenceGame.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\SDLDefenseGame.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\SDLDefenseGame.res" SDLDefenseGame.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\zzoyu\Documents\Visual Studio 2010\Projects\SDLDefenceGame\Debug\SDLDefenseGame.exe" /NOLOGO SDL2.lib SDL2main.lib SDL2_image.lib SDL2_mixer.lib SDL2_ttf.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SDLDefenseGame.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\zzoyu\Documents\Visual Studio 2010\Projects\SDLDefenceGame\Debug\SDLDefenseGame.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\zzoyu\Documents\Visual Studio 2010\Projects\SDLDefenceGame\Debug\SDLDefenseGame.lib" /MACHINE:X86 Debug\SDLDefenseGame.res
+         Debug\Bullet.obj
+         Debug\Character.obj
+         Debug\Enemy.obj
+         Debug\GUIDialogue.obj
+         Debug\main.obj
+         Debug\manager_game.obj
+         Debug\Scene.obj
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: 'msvcrt.lib' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+         SDLDefenceGame.vcxproj -> C:\Users\zzoyu\Documents\Visual Studio 2010\Projects\SDLDefenceGame\Debug\SDLDefenseGame.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\zzoyu\Documents\Visual Studio 2010\Projects\SDLDefenceGame\Debug\SDLDefenseGame.exe;#1" /manifest Debug\SDLDefenseGame.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         "Debug\SDLDefenseGame.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\SDLDefenseGame.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\zzoyu\Documents\Visual Studio 2010\Projects\SDLDefenceGame\SDLDefenceGame\SDLDefenceGame.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:13.06
